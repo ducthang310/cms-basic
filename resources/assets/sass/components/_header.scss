@@ -1,0 +1,78 @@
+header {
+}
+
+nav.top-nav {
+  height: $main-top-nav-height;
+  line-height: $main-top-nav-height;
+  background-color: #ffffff;
+
+  & i {
+    height: $main-top-nav-height;
+    line-height: $main-top-nav-height;
+    color: #A0A0A0;
+  }
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .top-logo {
+    position: absolute;
+    left: 25px;
+    font-size: 2.1rem;
+    padding: 0;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    i {
+      margin-right: 25px;
+    }
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .dropdown-content {
+    li {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+.side-nav-header.fixed  {
+  width: $main-nav-width;
+  padding-top: 66px;
+
+  li {
+    & > a, & > .collapsible-header {
+      height: auto;
+      padding: 0 25px;
+      font-weight: normal;
+    }
+
+    a {
+      i {
+        margin-right: 25px;
+      }
+    }
+  }
+
+  .collapsible-accordion {
+    li {
+      .collapsible-body {
+        a {
+          padding-left: 40px;
+        }
+      }
+    }
+  }
+}

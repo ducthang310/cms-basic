@@ -1,0 +1,99 @@
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+nav.top-nav {
+  height: 56px;
+  line-height: 56px;
+  background-color: #ffffff;
+}
+
+nav.top-nav i {
+  height: 56px;
+  line-height: 56px;
+  color: #A0A0A0;
+}
+
+nav.top-nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+nav.top-nav .top-logo {
+  position: absolute;
+  left: 25px;
+  font-size: 2.1rem;
+  padding: 0;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+nav.top-nav .top-logo i {
+  margin-right: 25px;
+}
+
+nav.top-nav .top-logo img {
+  width: 50px;
+}
+
+nav.top-nav .dropdown-content li a {
+  font-size: 14px;
+}
+
+.side-nav-header.fixed {
+  width: 240px;
+  padding-top: 66px;
+}
+
+.side-nav-header.fixed li > a, .side-nav-header.fixed li > .collapsible-header {
+  height: auto;
+  padding: 0 25px;
+  font-weight: normal;
+}
+
+.side-nav-header.fixed li a i {
+  margin-right: 25px;
+}
+
+.side-nav-header.fixed .collapsible-accordion li .collapsible-body a {
+  padding-left: 40px;
+}
+
+.admin-main {
+  padding-left: 240px;
+  float: left;
+  width: 100%;
+  min-width: 100%;
+  padding-top: 56px;
+}
+
+/*# sourceMappingURL=app.css.map */
