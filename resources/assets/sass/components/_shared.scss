@@ -3,3 +3,11 @@
     display: none;
   }
 }
+
+.link-gray {
+  color: #c4c4c4;
+
+  &:hover {
+    color: $main-pink;
+  }
+}

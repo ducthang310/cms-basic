@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="assets/images/favicon-32x32.png?v=1" sizes="32x32">
+        <link rel="icon" href="assets/images/favicon-32x32.png?v=2" sizes="32x32">
 
         <title>Frame - @yield('title')</title>
 

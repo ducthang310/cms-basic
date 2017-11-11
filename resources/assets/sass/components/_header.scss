@@ -21,7 +21,7 @@ nav.top-nav {
 
   .top-logo {
     position: absolute;
-    left: 25px;
+    left: 15px;
     font-size: 2.1rem;
     padding: 0;
     color: #000000;
@@ -30,7 +30,7 @@ nav.top-nav {
     align-items: center;
 
     i {
-      margin-right: 25px;
+      margin-right: 15px;
     }
 
     img {
@@ -53,15 +53,20 @@ nav.top-nav {
   padding-top: 66px;
 
   li {
+    line-height: 44px;
+
     & > a, & > .collapsible-header {
       height: auto;
-      padding: 0 25px;
+      padding: 0 15px;
       font-weight: normal;
     }
 
     a {
+      line-height: 44px;
       i {
-        margin-right: 25px;
+        height: 44px;
+        margin-right: 15px;
+        line-height: 44px;
       }
     }
   }
@@ -74,5 +79,11 @@ nav.top-nav {
         }
       }
     }
+  }
+}
+
+.side-nav {
+  li {
+    line-height: 44px;
   }
 }

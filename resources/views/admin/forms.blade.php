@@ -128,18 +128,16 @@
                     <div class="input-field col s12 m6">
                         <select class="icons">
                             <option value="" disabled selected>Choose your option</option>
-                            <option value="" data-icon="images/sample-1.jpg" class="circle">example 1</option>
-                            <option value="" data-icon="images/office.jpg" class="circle">example 2</option>
-                            <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+                            <option value="" data-icon="assets/images/sample-1.jpg" class="circle">example 1</option>
+                            <option value="" data-icon="assets/images/office.jpg" class="circle">example 2</option>
                         </select>
                         <label>Images in select</label>
                     </div>
                     <div class="input-field col s12 m6">
                         <select class="icons">
                             <option value="" disabled selected>Choose your option</option>
-                            <option value="" data-icon="images/sample-1.jpg" class="left circle">example 1</option>
-                            <option value="" data-icon="images/office.jpg" class="left circle">example 2</option>
-                            <option value="" data-icon="images/yuna.jpg" class="left circle">example 3</option>
+                            <option value="" data-icon="assets/images/sample-1.jpg" class="left circle">example 1</option>
+                            <option value="" data-icon="assets/images/office.jpg" class="left circle">example 2</option>
                         </select>
                         <label>Images in select</label>
                     </div>

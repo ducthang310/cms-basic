@@ -31,7 +31,7 @@
                 <div class="col s12 m7">
                     <div class="card">
                         <div class="card-image">
-                            <img src="images/sample-1.jpg">
+                            <img src="assets/images/sample-1.jpg">
                             <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
@@ -49,7 +49,7 @@
                 <div class="col s12 m6">
                     <div class="card">
                         <div class="card-image">
-                            <img src="images/sample-1.jpg">
+                            <img src="assets/images/sample-1.jpg">
                             <span class="card-title">Card Title</span>
                             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                         </div>
